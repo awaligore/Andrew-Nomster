@@ -1,4 +1,7 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -8,6 +11,11 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background: image_url("ripples.png");
     font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+span {
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
 }
 
 .booyah-box {
@@ -23,8 +31,13 @@ body {
 }
 
 .navbar {
-    background: image_url("cork-board.png");
+    background: image_url("black_linen_v2.png");
     box-shadow: 10px 10px 5px grey;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ECA831;
+    font-family: "Dancing Script", cursive;
 }
