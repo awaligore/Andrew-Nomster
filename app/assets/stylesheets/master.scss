@@ -75,6 +75,14 @@ blockquote {
     padding: 2px 8px 2px 8px;
 }
 
+.pagination {
+    display: block;
+    text-align: center;
+    a, span, em {
+        font-size: 14px;
+    }
+}
+
 #map {
     height: 300px;
 }
