@@ -35,6 +35,11 @@ blockquote p {
     display: inline;
 }
 
+.caption {
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    font-size: 15px;
+}
+
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
     max-height: 550px;
     width: auto;
@@ -86,6 +91,10 @@ blockquote p {
 .navbar-inverse .navbar-brand {
     color: #ECA831;
     font-family: "Dancing Script", cursive;
+}
+
+.image_upload {
+    max-height: 300px;
 }
 
 .invalid-feedback {

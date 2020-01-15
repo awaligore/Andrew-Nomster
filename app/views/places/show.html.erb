@@ -104,6 +104,7 @@
 
 <div class="booyah-box col-10 offset-1">
 	<% @place.photos.each do |photo| %>
-		<img src="<%= photo.picture.url %>">
+		<img class="image_upload"src="<%= photo.picture.url %>">
+		<p class="caption"><%= photo.caption %></p>
 	<% end %>
 </div>
